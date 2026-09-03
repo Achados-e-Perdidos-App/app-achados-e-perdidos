@@ -63,6 +63,12 @@ O app permite:
 Caso precise reinstalar ou configurar as dependências manualmente, execute os comandos abaixo na raiz do projeto:
 
 ```bash
+# Comandos para iniciar o projeto clonado
+npm install
+rm -Force -Recurse node_modules, package-lock.json 
+
+
+
 # Suporte a Web
 npx expo install react-native-web react-dom @expo/metro-runtime
 
