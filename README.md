@@ -63,7 +63,9 @@ O app permite:
 Caso precise reinstalar ou configurar as dependências manualmente, execute os comandos abaixo na raiz do projeto:
 
 ```bash
-# Comandos para iniciar o projeto clonado
+# Comandos para iniciar o projeto clonado(recomendado)
+
+rm -Force -Recurse node_modules, package-lock.json
 npm install
 rm -Force -Recurse node_modules, package-lock.json 
 
